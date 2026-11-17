@@ -1,0 +1,14 @@
+check,cancelled_pct,not_cancelled_pct,verdict
+Qty is 0,69.3,0.1,Leak. Drop Qty.
+Amount missing,41.3,0.2,Leak. Do not use the row's own Amount.
+Amount is 0,0.0,2.1,Small. Covered by not using the row's own Amount.
+currency missing,41.3,0.2,Leak. Same rows as missing Amount.
+promotion-ids missing,98.4,28.2,Leak. Drop promotion features.
+promotion-ids missing (Merchant orders),100.0,0.1,Leak. Promotions look written at invoicing.
+promotion-ids missing (Amazon orders),97.4,39.7,Leak.
+Courier Status Unshipped,30.7,0.1,Recorded after the outcome. Not a feature.
+Courier Status missing,37.4,0.0,Recorded after the outcome. Not a feature.
+fulfilled-by missing,62.6,70.9,"Small gap, tracks Fulfilment. Keep."
+Fulfilment is Merchant,37.4,29.1,Known at order time. Keep.
+B2B,0.4,0.7,Known at order time. Keep.
+ship-state missing,0.0,0.0,No gap. Keep.

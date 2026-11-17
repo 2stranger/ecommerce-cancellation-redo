@@ -1,0 +1,9 @@
+metric,class_reported,class_replica_rerun,new_test,why_different
+ROC-AUC,0.9462954,0.9477,0.5527,"Amount fill value, Qty and promotion leaks removed; time split"
+PR-AUC,,0.8575,0.1676,Not reported in class version
+Sensitivity,0.8392608,0.8355,0.0,Class used a 0.5 cutoff; new uses a validation cutoff from the 3x cost assumption
+Precision,,0.561,,Not reported in class version
+Threshold,0.5,0.5,flag none,Chosen on validation; at 3x no cutoff beat flagging nothing
+Sensitivity at 5x cost cutoff,,,0.1184,"Secondary cost assumption, cutoff from validation"
+Precision at 5x cost cutoff,,,0.1863,"Secondary cost assumption, cutoff from validation"
+Positive rate,0.151,0.151,0.1457,"Status Cancelled only, open orders dropped"

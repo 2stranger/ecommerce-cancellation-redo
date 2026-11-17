@@ -1,0 +1,7 @@
+step,roc_auc,pr_auc,base_rate,sensitivity_at_0.5
+"1. Class pipeline, time split instead of random",0.9607,0.8551,0.1363,0.8832
+2. Amount left missing instead of cancel-mean fill,0.9613,0.8626,0.1363,0.8889
+3. Amount replaced by SKU median price,0.9204,0.7206,0.1363,0.9565
+4. Qty dropped,0.9209,0.7222,0.1363,0.9507
+5. Promotion flag dropped,0.5571,0.1678,0.1363,0.4412
+"6. Target = Status Cancelled, open orders dropped",0.5547,0.1569,0.1347,0.435

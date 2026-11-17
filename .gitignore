@@ -1,5 +1,5 @@
 data/
-*.csv
+Amazon Sale Report.csv
 .venv/
 __pycache__/
 .DS_Store
